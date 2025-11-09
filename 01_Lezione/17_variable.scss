@@ -1,0 +1,39 @@
+$color: pink;
+
+ul{
+    font-size: 14px;
+    color: $color;
+}
+
+div{
+    font-size: 20px;
+
+    p{
+        color: orangered;
+    }
+    ul{
+        color: darkmagenta;
+    }
+}
+
+%message {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #000;
+    padding: 20px;
+    margin: 20px;
+}
+
+.success{
+    @extend %message;
+    background-color: greenyellow;
+}
+.warning{
+    @extend %message;
+    background-color: orange;
+}
+.error{
+    @extend %message;
+    background-color: orangered;
+}

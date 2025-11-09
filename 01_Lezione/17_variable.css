@@ -1,0 +1,35 @@
+ul {
+  font-size: 14px;
+  color: pink;
+}
+
+div {
+  font-size: 20px;
+}
+div p {
+  color: orangered;
+}
+div ul {
+  color: darkmagenta;
+}
+
+.error, .warning, .success {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #000;
+  padding: 20px;
+  margin: 20px;
+}
+
+.success {
+  background-color: greenyellow;
+}
+
+.warning {
+  background-color: orange;
+}
+
+.error {
+  background-color: orangered;
+}/*# sourceMappingURL=17_variable.css.map */
