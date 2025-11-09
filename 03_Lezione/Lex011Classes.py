@@ -26,8 +26,7 @@ flight = Flight(3)
 peoples = ["Asta", "Yuno", "Noelle", "Mimosa"]
 
 for person in peoples:
-    success = flight.add_passenger(person)
-    if success:
+    if flight.add_passenger(person):
         print(f"Added {person} to flight successfully")
     else:
         print(f"No available seats for {person}")
