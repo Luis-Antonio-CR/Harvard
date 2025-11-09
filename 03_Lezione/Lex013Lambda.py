@@ -5,6 +5,9 @@ people = [
     {"name": "Mimosa", "squad": "Golden Dawn"}
 ]
 
-people.sort()
+def f(person):
+    return person["name"]
+
+people.sort(key=f)
 
 print(people)
