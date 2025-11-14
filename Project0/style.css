@@ -17,6 +17,7 @@ body header a {
   color: #fff;
   text-decoration: none;
   margin: 0 10px;
+  font-size: 14px;
 }
 
 .formContainer {
@@ -39,18 +40,20 @@ body header a {
   background-color: #4e5156;
   padding: 15px 10px;
   border-radius: 50px;
-  width: 50%;
+  width: 40%;
   display: flex;
+  align-items: center;
 }
 #searchForm .searchField svg {
   stroke: #9ba0a6;
   margin-right: 10px;
 }
-#searchForm input {
+#searchForm .searchField input {
   background-color: transparent;
   border: none;
   width: 90%;
   color: #fff;
+  font-size: 18px;
 }
 #searchForm input:focus {
   outline: none;
@@ -59,6 +62,7 @@ body header a {
   display: flex;
 }
 #searchForm .buttonsField input {
+  border: none;
   color: #fff;
   padding: 10px 15px;
   background-color: #303134;

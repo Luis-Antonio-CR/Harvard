@@ -23,6 +23,7 @@ body{
             color: #fff;
             text-decoration: none;
             margin: 0 10px;
+            font-size: 14px;
         }
     }
 }
@@ -48,21 +49,24 @@ body{
         background-color: $color2;
         padding: 15px 10px;
         border-radius: 50px;
-        width: 50%;
+        width: 40%;
         display: flex;
+        align-items: center;
 
         svg{
             stroke: $color3;
             margin-right: 10px;
         }
-    }
 
-    input{
-        background-color: transparent;
-        border: none;
-        width: 90%;
-        color: #fff;
+        input{
+            background-color: transparent;
+            border: none;
+            width: 90%;
+            color: #fff;
+            font-size: 18px;
+        }
     }
+    
     input:focus{
         outline: none;
     }
@@ -71,6 +75,7 @@ body{
         display: flex;
 
         input{
+            border: none;
             color: #fff;
             padding: 10px 15px;
             background-color: $color1;
