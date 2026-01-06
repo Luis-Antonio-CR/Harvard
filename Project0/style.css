@@ -29,14 +29,30 @@ body header a {
   width: 100%;
   height: 70vh;
 }
+.formContainer .logo {
+  display: block;
+  position: relative;
+}
+.formContainer .logo img {
+  width: 272px;
+}
+.formContainer .logo .logotext {
+  color: #4487f6;
+  font: 16px/16px Helvetica Neue, sans-serif;
+  position: absolute;
+  left: 215px;
+  bottom: 0;
+}
 
-#searchForm {
+#searchForm,
+#imageForm {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#searchForm .searchField {
+#searchForm .searchField,
+#imageForm .searchField {
   background-color: #4e5156;
   padding: 15px 10px;
   border-radius: 50px;
@@ -44,24 +60,29 @@ body header a {
   display: flex;
   align-items: center;
 }
-#searchForm .searchField svg {
+#searchForm .searchField svg,
+#imageForm .searchField svg {
   stroke: #9ba0a6;
   margin-right: 10px;
 }
-#searchForm .searchField input {
+#searchForm .searchField input,
+#imageForm .searchField input {
   background-color: transparent;
   border: none;
   width: 90%;
   color: #fff;
   font-size: 18px;
 }
-#searchForm input:focus {
+#searchForm input:focus,
+#imageForm input:focus {
   outline: none;
 }
-#searchForm .buttonsField {
+#searchForm .buttonsField,
+#imageForm .buttonsField {
   display: flex;
 }
-#searchForm .buttonsField input {
+#searchForm .buttonsField input,
+#imageForm .buttonsField input {
   border: none;
   color: #fff;
   padding: 10px 15px;
