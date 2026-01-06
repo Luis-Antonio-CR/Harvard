@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #202124;
+}
+body header {
+  width: 100wh;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+body header a {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  height: 70vh;
+}
+.formContainer h1 {
+  font-size: 20px;
+  color: #e59086;
+  padding: 30px 40px;
+  border-bottom: 1px solid #464646;
+}
+
+#advancedForm {
+  padding: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+#advancedForm .searchField {
+  border-bottom: 1px solid #464646;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+  padding-bottom: 20px;
+  width: 65%;
+}
+#advancedForm .searchField .searchFieldTitle {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#advancedForm .searchField .searchFieldTitle h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  width: 20%;
+}
+#advancedForm .searchField .searchFieldTitle .spacer {
+  width: 50%;
+}
+#advancedForm .searchField .searchFieldTitle .suggests {
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+  width: 25%;
+}
+#advancedForm .searchField .searchFieldInput {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+#advancedForm .searchField .searchFieldInput label {
+  width: 20%;
+  color: #8e9196;
+}
+#advancedForm .searchField .searchFieldInput input {
+  background-color: #1c1e23;
+  border: 1px solid #464646;
+  width: 50%;
+  color: #fff;
+  font-size: 18px;
+  padding: 7px;
+  font-size: 12px;
+}
+#advancedForm .searchField .searchFieldInput p {
+  padding-left: 10px;
+  width: 30%;
+  color: #8e9196;
+}
+#advancedForm .searchField .searchFieldInput p span {
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+}
+#advancedForm .searchField .searchFieldInput input:focus {
+  outline: none;
+  border: 1px solid #92b4f2;
+}
+#advancedForm .searchField .buttonField {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+}
+#advancedForm .searchField .buttonField input {
+  border: none;
+  font-weight: bold;
+  color: #1c1e23;
+  padding: 5px 15px;
+  background-color: #92b4f2;
+}
+#advancedForm .searchField .buttonField input:hover {
+  background-color: #b3caf6;
+}/*# sourceMappingURL=styleAdvance.css.map */

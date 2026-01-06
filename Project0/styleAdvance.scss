@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+$color1: #e59086;
+$color2: #1c1e23;
+$color3: #8e9196;
+$color4: #b3caf6;
+$color5: #92b4f2;
+$color6: #464646;
+
+$background: #1f1f1f;
+$background1: #202124;
+
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: $background1;
+
+    header {
+        width: 100wh;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            font-family: "Open Sans", sans-serif;
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 14px;
+        }
+    }
+}
+
+.formContainer {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    height: 70vh;
+
+    h1 {
+        font-size: 20px;
+        color: $color1;
+        padding: 30px 40px;
+        border-bottom: 1px solid $color6;
+    }
+}
+
+#advancedForm{
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    
+    
+    
+    .searchField {
+        border-bottom: 1px solid $color6;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 12px;
+        padding-bottom: 20px;
+        width: 65%;
+
+        .searchFieldTitle{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 20px;
+
+            h2{
+                font-size: 16px;
+                font-weight: bold;
+                color: #fff;
+                width: 20%;
+            }
+            .spacer {
+                width: 50%;
+            }
+            .suggests{
+                font-weight: bold;
+                color: #fff;
+                margin-bottom: 10px;
+                width: 25%;
+            }
+        }
+        .searchFieldInput {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+
+            label {
+                width: 20%;
+                color: $color3;
+            }
+    
+            input {
+                background-color: $color2;
+                border: 1px solid $color6;
+                width: 50%;
+                color: #fff;
+                font-size: 18px;
+                padding: 7px;
+                font-size: 12px;
+                
+            }
+            p {
+                padding-left: 10px;
+                width: 30%;
+                color: $color3;
+
+                span {
+                    color: #fff;
+                    font-family: 'Courier New', Courier, monospace;
+                }
+            }
+
+            input:focus {
+                outline: none;
+                border: 1px solid $color5;
+            }
+        }
+
+        .buttonField {
+            width: 70%;
+            display: flex;
+            justify-content: flex-end;
+    
+            input {
+                border: none;
+                font-weight: bold;
+                color: $color2;
+                padding: 5px 15px;
+                background-color: $color5;
+            }
+            input:hover{
+                background-color: $color4;
+            }
+        }
+    }
+
+
+}

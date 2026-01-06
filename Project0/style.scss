@@ -4,6 +4,8 @@ $color1: #303134;
 $color2: #4e5156;
 $color3: #9ba0a6;
 $background: #1f1f1f;
+$background1: #202124;
+
 
 * {
     font-family: "Open Sans", sans-serif;
@@ -16,7 +18,7 @@ body {
         width: 100wh;
         padding: 20px;
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
 
         a {
             font-family: "Open Sans", sans-serif;
