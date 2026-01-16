@@ -55,7 +55,7 @@ ROOT_URLCONF = 'Lecture4.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["hello/templates", "newyear/templates"],
+        'DIRS': ["hello/templates", "newyear/templates", "tasks/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
